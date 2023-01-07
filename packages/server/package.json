@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "server",
+  "type": "module",
+  "scripts": {
+    "start": "",
+    "lint": "npx tsc"
+  },
+  "dependencies": {
+    "shared": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

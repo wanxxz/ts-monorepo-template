@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "composite": true,
+  "include": ["src"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2021"
+  }
+}

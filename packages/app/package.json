@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "app",
+  "type": "module",
+  "scripts": {
+    "start": "env-cmd vite",
+    "build": "env-cmd vite build",
+    "lint": "npx tsc"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "es2015-i18n-tag": "^1.6.1",
+    "shared": "*",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "postcss-preset-env": "^7.8.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.3",
+    "vite-plugin-dts": "^1.7.1"
+  }
+}
